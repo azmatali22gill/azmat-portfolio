@@ -1,10 +1,27 @@
 # Azmat — Full-Stack Developer Portfolio
 
-Single-file static portfolio site (HTML/CSS/JS, no build step needed).
+Portfolio site built with **Next.js (App Router)** and **TypeScript (TSX)**.
+
+## Tech
+
+- Next.js 15 + React 19
+- TypeScript
+- SCSS (`app/globals.scss`)
+- `next/font` (Space Grotesk, IBM Plex Sans, IBM Plex Mono)
+- Client components for the boot sequence, scroll-reveal, and screenshot gallery
+
+## Run locally
+
+```bash
+npm install
+npm run dev
+```
+
+Open http://localhost:3000
 
 ## Deploy
 
-This is a static site — deploy directly on Vercel or Netlify, no build command needed.
+Deploy on Vercel or Netlify with the standard Next.js build:
 
-- Vercel: Import this repo → Framework Preset: "Other" → Deploy
-- Netlify: Import this repo → Build command: (leave empty) → Publish directory: `/`
+- Build command: `npm run build`
+- Output directory: `N/A` (framework preset: Next.js)
