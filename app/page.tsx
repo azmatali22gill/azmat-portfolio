@@ -7,6 +7,7 @@ import Projects from "@/components/Projects";
 import Process from "@/components/Process";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
+import Chatbot from "@/components/Chatbot";
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
       <Process />
       <Contact />
       <Footer />
+      <Chatbot />
     </>
   );
 }

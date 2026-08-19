@@ -1,9 +1,17 @@
 import Image from "next/image";
+import type { CSSProperties } from "react";
 
 const metrics = [
   { label: "Experience", value: "2+ yr / production" },
   { label: "Core Stack", value: "React · Next.js · Node", accent: true },
   { label: "Avg. Response Time", value: "< 4 hours" },
+];
+
+const orbitChips = [
+  { label: "React", angle: 0 },
+  { label: "Next.js", angle: 90 },
+  { label: "Node.js", angle: 180 },
+  { label: "MongoDB", angle: 270 },
 ];
 
 export default function Hero() {
@@ -50,13 +58,30 @@ export default function Hero() {
             className="hero-img hero-anim"
             style={{ animationDelay: "1.1s" }}
           >
-            <Image
-              src="/my.jpg"
-              alt="Azmat Ali"
-              width={400}
-              height={533}
-              priority
-            />
+            <div className="hero-avatar">
+              <div className="ring ring-outer"></div>
+              <div className="ring ring-inner"></div>
+              <div className="avatar-orbit">
+                {orbitChips.map((chip) => (
+                  <span
+                    className="orbit-chip"
+                    key={chip.label}
+                    style={{ "--a": `${chip.angle}deg` } as CSSProperties}
+                  >
+                    {chip.label}
+                  </span>
+                ))}
+              </div>
+              <div className="avatar-img">
+                <Image
+                  src="/my.jpg"
+                  alt="Azmat Ali"
+                  width={400}
+                  height={533}
+                  priority
+                />
+              </div>
+            </div>
           </div>
         </div>
 
