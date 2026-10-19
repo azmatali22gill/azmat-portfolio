@@ -24,7 +24,7 @@ export default function Hero() {
               className="status-pill hero-anim"
               style={{ animationDelay: "0.75s" }}
             >
-              <span className="pulse"></span>AVAILABLE FOR NEW PROJECTS
+              <span className="pulse"></span>FULL-STACK @ KNOX DIGITAL
             </div>
 
             <h1

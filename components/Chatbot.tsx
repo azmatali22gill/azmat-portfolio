@@ -33,8 +33,19 @@ const responses: { keys: string[]; reply: string }[] = [
     reply: `Here are a few things I've built end to end:\n\n\u2022 Readlink - full-stack user management system (Next.js, MongoDB, JWT, RBAC)\n\u2022 AI Support SaaS Platform - AI-powered customer support (Next.js, Node, Express, MongoDB)\n\u2022 Beloz Language Services - language interpretation & translation website\n\nCheck the Projects section above for more detail.`,
   },
   {
-    keys: ["experience", "exp", "year", "how long", "background", "resume"],
-    reply: `I have 2+ years of experience building production software - mainly dashboards, admin panels, and web apps across React, Next.js, and Node.`,
+    keys: [
+      "experience",
+      "exp",
+      "year",
+      "how long",
+      "background",
+      "resume",
+      "knox",
+      "company",
+      "job",
+      "work at",
+    ],
+    reply: `I have 2+ years of experience building production software. Right now I'm a Full-Stack Developer at Knox Digital, focused on admin panels and backend APIs - React, Next.js, Node, Express, MongoDB, JWT, and RBAC.`,
   },
   {
     keys: [
@@ -51,7 +62,7 @@ const responses: { keys: string[]; reply: string }[] = [
   },
   {
     keys: ["about", "who", "yourself", "profile"],
-    reply: `I'm Azmat Ali, a full-stack developer who cares about the boring stuff - clean architecture, secure auth, and code that stays maintainable long after launch.`,
+    reply: `I'm Azmat Ali, a full-stack developer at Knox Digital. I care about the boring stuff - clean architecture, secure auth, admin panels, and code that stays maintainable long after launch.`,
   },
   {
     keys: ["process", "how do you work", "method", "approach", "timeline", "cost"],
