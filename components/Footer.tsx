@@ -2,7 +2,7 @@ export default function Footer() {
   return (
     <footer>
       <div className="wrap">
-        {"// azmat.dev — built with React, Next.js & Node.js"}
+        {"Thank you for your interest in my portfolio. Feel free to reach out for collaborations, projects, or just a friendly hello."}
       </div>
     </footer>
   );
