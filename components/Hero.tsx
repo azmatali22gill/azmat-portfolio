@@ -2,7 +2,7 @@ import Image from "next/image";
 import type { CSSProperties } from "react";
 
 const metrics = [
-  { label: "Experience", value: "2+ yr / production" },
+  { label: "Focus", value: "Admin · Backend APIs" },
   { label: "Core Stack", value: "React · Next.js · Node", accent: true },
   { label: "Avg. Response Time", value: "< 4 hours" },
 ];
@@ -24,7 +24,7 @@ export default function Hero() {
               className="status-pill hero-anim"
               style={{ animationDelay: "0.75s" }}
             >
-              <span className="pulse"></span>FULL-STACK @ KNOX DIGITAL
+              <span className="pulse"></span>FULL-STACK @ OULMI TECH
             </div>
 
             <h1
@@ -45,11 +45,11 @@ export default function Hero() {
               className="hero-ctas hero-anim"
               style={{ animationDelay: "1.05s" }}
             >
-              <a href="#projects" className="btn btn-primary">
-                View Projects
+              <a href="#contact" className="btn btn-primary">
+                Hire Me
               </a>
-              <a href="#contact" className="btn btn-ghost">
-                Start a Project
+              <a href="#projects" className="btn btn-ghost">
+                View Projects
               </a>
             </div>
           </div>

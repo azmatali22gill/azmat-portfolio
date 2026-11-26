@@ -6,6 +6,7 @@ import Skills from "@/components/Skills";
 import Experience from "@/components/Experience";
 import Projects from "@/components/Projects";
 import Process from "@/components/Process";
+import WhyHire from "@/components/WhyHire";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 import Chatbot from "@/components/Chatbot";
@@ -21,6 +22,7 @@ export default function Home() {
       <Skills />
       <Experience />
       <Projects />
+      <WhyHire />
       <Process />
       <Contact />
       <Footer />

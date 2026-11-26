@@ -13,13 +13,26 @@ type Project = {
 
 const projects: Project[] = [
   {
+    title: "Knox Digital",
+    subtitle: "Admin Panel & Backend — Oulmi Tech",
+    date: "Present",
+    stack: ["React", "Next.js", "Node.js", "Express", "MongoDB", "JWT", "RBAC"],
+    points: [
+      "Production admin panel and backend system built for Knox Digital at Oulmi Tech — dashboards, APIs, and role-based access teams use every day.",
+      "Develop and ship admin panel features for internal tools and client-facing dashboards with React and Next.js.",
+      "Design and maintain Node.js / Express REST APIs for CRUD workflows, data management, and role-based access.",
+      "Implement JWT authentication, protected routes, and RBAC so admins and users only see what they should.",
+      "Model MongoDB schemas, wire aggregation queries, and keep error handling clean across the backend.",
+      "Collaborate on end-to-end features — from UI flows in the admin panel to the APIs and database behind them.",
+    ],
+  },
+  {
     title: "Readlink",
-    subtitle: "Full-Stack User Management System",
-    date: "06/2025",
+    subtitle: "Full-Stack User Management — Ocyber",
     stack: ["Next.js", "MongoDB", "JWT", "RBAC"],
     gallery: true,
     points: [
-      "Full-stack user management system with secure authentication, authorization, and complete user lifecycle management.",
+      "Full-stack user management system built at Ocyber with secure authentication, authorization, and complete user lifecycle management.",
       "JWT-based login and registration, protected routes, and Role-Based Access Control (RBAC) with Admin and User roles.",
       "Admin dashboard for creating, updating, deleting, searching, and managing users, while regular users can update their own profiles.",
       "Backend built on Next.js API routes with MongoDB for efficient CRUD operations, clean schemas, and proper error handling.",
@@ -39,11 +52,11 @@ const projects: Project[] = [
   },
   {
     title: "Beloz Language Services",
-    subtitle: "Language interpretation & translation website",
+    subtitle: "Interpretation & translation site — Ocyber",
     stack: ["HTML", "CSS", "JavaScript", "Responsive UI"],
     link: "https://beloze-website.vercel.app/Home.html",
     points: [
-      "Responsive language interpretation and translation website providing easy access to professional language solutions.",
+      "Responsive language interpretation and translation website built at Ocyber for professional language solutions.",
       "Showcases Video Remote Interpreting, Over-the-Phone Interpreting, In-Person Interpreting, and translation services.",
       "Includes company information and contact options in a clean, mobile-friendly interface.",
     ],

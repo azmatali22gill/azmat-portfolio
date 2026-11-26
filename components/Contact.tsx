@@ -61,7 +61,7 @@ export default function Contact() {
 
   function handleSubmit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
-    const subject = encodeURIComponent(`Project inquiry from ${name}`);
+    const subject = encodeURIComponent(`Hiring inquiry from ${name}`);
     const body = encodeURIComponent(
       `Hi Azmat,\n\n${message}\n\n- ${name}\n${email}`,
     );
@@ -75,7 +75,7 @@ export default function Contact() {
         <Reveal>
           <div className="section-head">
             <div className="eyebrow">Contact</div>
-            <h2>Let&apos;s build something reliable</h2>
+            <h2>Ready to hire — let&apos;s talk</h2>
           </div>
         </Reveal>
 
@@ -164,14 +164,14 @@ export default function Contact() {
                   id="cf-message"
                   value={message}
                   onChange={(e) => setMessage(e.target.value)}
-                  placeholder="Tell me what you're trying to build..."
+                  placeholder="Role, stack, timeline — or what you need built..."
                   required
                 />
               </div>
 
               <div className="form-foot">
                 <button type="submit" className="btn btn-primary">
-                  Send Message
+                  Send Hiring Message
                 </button>
                 <span className="form-note">
                   {sent

@@ -30,7 +30,7 @@ const responses: { keys: string[]; reply: string }[] = [
   },
   {
     keys: ["project", "work", "build", "portfolio", "made", "built"],
-    reply: `Here are a few things I've built end to end:\n\n\u2022 Readlink - full-stack user management system (Next.js, MongoDB, JWT, RBAC)\n\u2022 AI Support SaaS Platform - AI-powered customer support (Next.js, Node, Express, MongoDB)\n\u2022 Beloz Language Services - language interpretation & translation website\n\nCheck the Projects section above for more detail.`,
+    reply: `Here are a few things I've built end to end:\n\n\u2022 Knox Digital - admin panel & backend at Oulmi Tech (React, Next.js, Node, Express, MongoDB, JWT, RBAC)\n\u2022 Readlink - full-stack user management at Ocyber (Next.js, MongoDB, JWT, RBAC)\n\u2022 Beloz Language Services - interpretation & translation site at Ocyber\n\u2022 AI Support SaaS Platform - AI-powered customer support (Next.js, Node, Express, MongoDB)\n\nCheck the Projects section above for more detail.`,
   },
   {
     keys: [
@@ -41,11 +41,13 @@ const responses: { keys: string[]; reply: string }[] = [
       "background",
       "resume",
       "knox",
+      "oulmi",
+      "ocyber",
       "company",
       "job",
       "work at",
     ],
-    reply: `I have 2+ years of experience building production software. Right now I'm a Full-Stack Developer at Knox Digital, focused on admin panels and backend APIs - React, Next.js, Node, Express, MongoDB, JWT, and RBAC.`,
+    reply: `I'm a Full-Stack Developer at Oulmi Tech, currently shipping the Knox Digital admin panel and backend. Before that I worked at Ocyber on Readlink and Beloz Language Services. Stack: React, Next.js, Node, Express, MongoDB, JWT, and RBAC.`,
   },
   {
     keys: [
@@ -62,15 +64,15 @@ const responses: { keys: string[]; reply: string }[] = [
   },
   {
     keys: ["about", "who", "yourself", "profile"],
-    reply: `I'm Azmat Ali, a full-stack developer at Knox Digital. I care about the boring stuff - clean architecture, secure auth, admin panels, and code that stays maintainable long after launch.`,
+    reply: `I'm Azmat Ali, a full-stack developer at Oulmi Tech, currently building the Knox Digital admin panel and backend. I care about the boring stuff - clean architecture, secure auth, admin panels, and code that stays maintainable long after launch.`,
   },
   {
     keys: ["process", "how do you work", "method", "approach", "timeline", "cost"],
     reply: `I follow a clean process: understand the problem, design the architecture, build with reusable components, and test before it reaches production. I can give you a straight answer on timeline and cost within a few hours.`,
   },
   {
-    keys: ["available", "availability", "freelance", "free"],
-    reply: `Yes - I'm currently available for new projects. Reach out through the Contact section and we can talk details.`,
+    keys: ["available", "availability", "freelance", "free", "hire", "hiring", "job", "role", "open to"],
+    reply: `Yes - I'm open to full-time roles and contract work. I ship admin panels, backends, and full-stack product features. Hit Hire Me in the nav or the Contact section and we can talk.`,
   },
   {
     keys: ["hello", "hi", "hey", "salam", "good morning", "good evening"],

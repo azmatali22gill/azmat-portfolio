@@ -36,11 +36,11 @@ export default function About() {
         <Reveal className="about-grid">
           <div className="about-content">
             <p>
-              I&apos;m Azmat Ali, a full-stack developer currently at Knox
-              Digital, where I build admin panels and backend systems that stay
-              reliable after launch. I design dashboards and web apps with clean
-              architecture and reusable components, so what ships today stays
-              maintainable tomorrow.
+              I&apos;m Azmat Ali, a full-stack developer currently at Oulmi
+              Tech, where I build the Knox Digital admin panel and backend —
+              systems that stay reliable after launch. I design dashboards and
+              web apps with clean architecture and reusable components, so what
+              ships today stays maintainable tomorrow.
             </p>
             <p>
               From secure auth and role-based access to aggregation pipelines

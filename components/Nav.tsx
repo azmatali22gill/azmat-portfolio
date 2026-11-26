@@ -2,10 +2,10 @@ import ThemeToggle from "./ThemeToggle";
 
 const links = [
   { href: "#about", label: "About" },
-  { href: "#skills", label: "Skills" },
   { href: "#experience", label: "Experience" },
   { href: "#projects", label: "Projects" },
-  { href: "#process", label: "Process" },
+  { href: "#hire", label: "Why Hire" },
+  { href: "#contact", label: "Contact" },
 ];
 
 export default function Nav() {
@@ -24,13 +24,8 @@ export default function Nav() {
         </ul>
         <div className="nav-right">
           <ThemeToggle />
-          <a
-            href="https://beloze-website.vercel.app/Home.html"
-            target="_blank"
-            rel="noopener"
-            className="nav-cta"
-          >
-            Beloze
+          <a href="#contact" className="nav-cta">
+            Hire Me
           </a>
         </div>
       </div>
